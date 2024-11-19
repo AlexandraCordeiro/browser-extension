@@ -1,7 +1,7 @@
 # 🦊 MindFlow: Firefox add-on
 
 <center>
-    
+    <img src='demo-addon.png'>
 </center>
 
 # ✏️ Description 
