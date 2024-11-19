@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>MindFlow</title>
+</head>
+<body>
+    <!-- <h1>MindFlow</h1>
+    <h3>An accessible browser extension for users with ADHD and dyslexia</h2> -->
+        
+    <div class="grid-1">
+        <div class="container">
+            <img src="icons/font.svg" class="icon">
+            <label class="switch" id="font">
+                <input id="font-id" name="font" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="container">
+            <img src="icons/moon.svg" class="icon">
+            <label class="switch" id="mode">
+                <input id="dark-mode-id" name="mode" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="grid-2">
+        <button class="rect" id="pomodoro">
+            <img src="icons/clock.svg" class="icon">
+            <p class="link" href="pomofocus.io">Pomodoro Timer</p>
+            <img src="icons/arrow.svg" class="icon">
+        </button>
+        <button class="rect" id="list">
+            <img src="icons/list.svg" class="icon">
+            <p class="link">To-do List</p>
+            <img src="icons/arrow.svg" class="icon">
+        </button>
+        <button class="rect" id="books">
+            <img src="icons/book.svg" class="icon">
+            <p class="link">Digital Books</p>
+            <img src="icons/arrow.svg" class="icon">
+        </button>
+
+        <button class="rect" id="playlist">
+            <img src="icons/zen.svg" class="icon">
+            <p class="link">Ambience Playlist</p>
+            <img src="icons/arrow.svg" class="icon">
+        </button>
+    </div>
+</body>
+
+<script src="popup.js"></script>
+</html>

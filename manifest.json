@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "MindFlow",
+    "author": "Alexandra Cordeiro",
+    "version": "1.0",
+    "description": "An accessible browser extension for users with ADHD and dyslexia",
+    "icons": { "48": "icon.png", "128": "icon-128.png"},
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["<all_urls>", "tabs", "activeTab", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "fonts/OpenDyslexic-Regular.woff",
+        "fonts/CenturyGothic.woff"
+    ]
+  }
+  
