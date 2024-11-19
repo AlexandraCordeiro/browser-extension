@@ -1,8 +1,8 @@
 # 🦊 MindFlow: Firefox add-on
-
 <center>
     <img src='demo-addon.png' width="500px">
 </center>
+---
 
 # ✏️ Description 
 Hi there! I've created this browser extension especially for folks with ADHD and dyslexia, but in reality this addon is really useful for anyone who wants to create a productive study environment!
